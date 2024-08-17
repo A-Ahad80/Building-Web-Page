@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar{
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bolder;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: orange;
+    color: black;
+}
+
+.navbar .menu a{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 15px;
+}
+
+
+.banner{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.555), rgba(0, 0, 0, 0.514)), url(./assets/Bg.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .content{
+    width: 500px;
+    color: white;
+    text-align: center;  
+}
+
+.banner .content h1{
+    margin-bottom: 20px;
+}
+
+
+.banner .content button{
+    width: 170px;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 2px solid orange;
+    border-radius: 50px;
+
+}
